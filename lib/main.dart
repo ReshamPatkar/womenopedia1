@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:womenopedia1/Screens/logo_screen.dart';
 
 import 'Screens/login_screen.dart';
 import 'Screens/splash_screen.dart';
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
       routes: {
         LoginScreen.id: (context) => LoginScreen(),
         SplashScreen.id: (context) => SplashScreen(),
+        LogoScreen.id: (context) => LogoScreen(),
       },
     );
   }

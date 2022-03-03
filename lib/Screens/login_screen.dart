@@ -8,6 +8,7 @@ import 'package:womenopedia1/Widgets/button_tile.dart';
 import 'package:womenopedia1/Widgets/button_tile2.dart';
 
 import '../palette.dart';
+import 'logo_screen.dart';
 // import 'home_screen.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -36,42 +37,47 @@ class _LoginScreenState extends State<LoginScreen> {
             child: Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        Padding(
-          padding: const EdgeInsets.only(
-            left: 16.0,
-            right: 32.0,
-            top: 16.0,
-            bottom: 16.0,
+        FlatButton(
+          onPressed: () {
+            Navigator.pushNamed(context, LogoScreen.id);
+          },
+          child: Padding(
+            padding: const EdgeInsets.only(
+              left: 16.0,
+              right: 32.0,
+              top: 16.0,
+              bottom: 16.0,
+            ),
+            child: Container(
+                decoration: BoxDecoration(
+                    border: Border.all(
+                      color: kDividerColor,
+                    ),
+                    borderRadius: BorderRadius.all(Radius.circular(60))),
+                child: Row(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                      child: Image(
+                        image: AssetImage(
+                          'images/logoprovisional.png',
+                        ),
+                        width: 100,
+                        height: 100,
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                      child: Text(
+                        'WOMEN-O-PEDIA',
+                        style: TextStyle(
+                          fontSize: 20,
+                        ),
+                      ),
+                    )
+                  ],
+                )),
           ),
-          child: Container(
-              decoration: BoxDecoration(
-                  border: Border.all(
-                    color: kDividerColor,
-                  ),
-                  borderRadius: BorderRadius.all(Radius.circular(60))),
-              child: Row(
-                children: [
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 8.0),
-                    child: Image(
-                      image: AssetImage(
-                        'images/logoprovisional.png',
-                      ),
-                      width: 100,
-                      height: 100,
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 8.0),
-                    child: Text(
-                      'WOMEN-O-PEDIA',
-                      style: TextStyle(
-                        fontSize: 20,
-                      ),
-                    ),
-                  )
-                ],
-              )),
         ),
         Padding(
           padding: const EdgeInsets.all(16.0),
@@ -194,7 +200,9 @@ class _LoginScreenState extends State<LoginScreen> {
                       children: [
                         Text(
                           'No Account?',
-                          style: TextStyle(),
+                          style: TextStyle(
+                            fontSize: 16,
+                          ),
                         ),
                         TextButton(
                           onPressed: () {

@@ -12,20 +12,15 @@ class ButtonTile extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 24),
       child: DecoratedBox(
         decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(20),
-            gradient: LinearGradient(
-                begin: Alignment.bottomLeft,
-                end: Alignment.topRight,
-                colors: [
-                  Color(0xFFbb3fdd),
-                  Color(0xFFfb6da9),
-                  Color(0xFFff9f7c),
-                ])),
+            borderRadius: BorderRadius.circular(5), color: kPrimaryColor),
         child: TextButton(
           onPressed: onPress(),
-          child: Text(
-            text,
-            style: TextStyle(fontSize: 15),
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16.0),
+            child: Text(
+              text,
+              style: TextStyle(fontSize: 15),
+            ),
           ),
           // style: ElevatedButton.styleFrom(primary: Colors.transparent),
           style: ButtonStyle(

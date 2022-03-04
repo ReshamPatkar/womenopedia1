@@ -8,7 +8,7 @@ import 'login_screen.dart';
 import 'logo_screen.dart';
 
 class SplashScreen extends StatefulWidget {
-  static String id = 'Splash_Screen';
+  static String id = 'Splash Screen';
   @override
   SplashScreenState createState() => SplashScreenState();
 }

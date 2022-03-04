@@ -10,7 +10,7 @@ import 'logo_screen.dart';
 //import 'package:intro_slider_example/home.dart';
 
 class IntroScreen extends StatefulWidget {
-  static String id = 'Intro_Screen';
+  static String id = 'Intro Screen';
   IntroScreen({Key? key}) : super(key: key);
 
   @override

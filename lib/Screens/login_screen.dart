@@ -4,6 +4,7 @@
 // import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:womenopedia1/Screens/signup_screen.dart';
 import 'package:womenopedia1/Widgets/button_tile.dart';
 import 'package:womenopedia1/Widgets/button_tile2.dart';
 
@@ -183,16 +184,6 @@ class _LoginScreenState extends State<LoginScreen> {
                       text: 'Login',
                     ),
                   ),
-                  // Padding(
-                  //   padding: const EdgeInsets.symmetric(vertical: 24),
-                  //   child: Center(
-                  //       child: Text(
-                  //     'Forgot Password?',
-                  //     style: TextStyle(
-                  //       color: kTextColor,
-                  //     ),
-                  //   )),
-                  // ),
                   Align(
                     alignment: AlignmentDirectional.bottomCenter,
                     child: Row(
@@ -206,7 +197,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         ),
                         TextButton(
                           onPressed: () {
-                            // Navigator.pushNamed(context, SignUpScreen.id);
+                            Navigator.pushNamed(context, SignUpScreen.id);
                           },
                           child: Text(
                             'Sign-up',

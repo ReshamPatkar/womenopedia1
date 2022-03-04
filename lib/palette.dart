@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 
-Color kExtraDarkPrimaryColor = Color(0xFF231942);
-Color kDarkPrimaryColor = Color(0xFF5e548e);
+// Color kExtraDarkPrimaryColor = Color(0xFF231942);
 Color kButtonBackground = Color(0xFF1D1D27);
-
+Color kDarkPrimaryColor = Color(0xFF4255ab);
 Color kPrimaryColor = Color(0xFF6558F5);
-Color kSecondaryColor = Color(0xFFFC76A1);
+Color kSecondaryColor = Color(0xFF9058f5);
+Color kAccentColor = Color(0xFF58ddf5);
+Color kDarkAccentColor = Color(0xFF3e9aab);
 Color kBackGroundColor = Color(0xFF424242);
-Color kLightPrimaryColor = Color(0xFFbe95c4);
-Color kExtraLightPrimaryColor = Color(0xFFe0b1cb);
 var kGradientColor = [
   Color(0xFFbb3fdd),
   Color(0xFFfb6da9),

@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 // import 'Welcome_screen.dart';
 import '../palette.dart';
+import 'intro_carousel.dart';
 import 'login_screen.dart';
+import 'logo_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   static String id = 'Splash_Screen';
@@ -29,7 +31,7 @@ class SplashScreenState extends State<SplashScreen> {
             // MaterialPageRoute(
             //     builder: (context) =>
             //         userToggle ? HomeScreen() : WelcomeScreen())
-            MaterialPageRoute(builder: (context) => LoginScreen())));
+            MaterialPageRoute(builder: (context) => IntroScreen())));
   }
 
   // Future<bool> getCurrentUser() async {

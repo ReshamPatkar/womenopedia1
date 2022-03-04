@@ -1,3 +1,4 @@
+import 'package:womenopedia1/Screens/intro_carousel.dart';
 import 'package:womenopedia1/Screens/login_screen.dart';
 
 import '';
@@ -35,7 +36,11 @@ class _LogoScreenState extends State<LogoScreen> {
           ),
           Column(
             children: [
-              ButtonTile2(onPress: () {}, text: 'Sign-up'),
+              ButtonTile2(
+                  onPress: () {
+                    // Navigator.pushNamed(context, LoginScreen.id);
+                  },
+                  text: 'Sign-up'),
               Align(
                 alignment: AlignmentDirectional.bottomCenter,
                 child: Row(

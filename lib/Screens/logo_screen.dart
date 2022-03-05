@@ -4,6 +4,7 @@ import 'package:womenopedia1/Screens/signup_screen.dart';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:womenopedia1/Widgets/button_tile.dart';
 import 'package:womenopedia1/Widgets/button_tile2.dart';
 import '../palette.dart';
 // import 'home_screen.dart';
@@ -38,7 +39,7 @@ class _LogoScreenState extends State<LogoScreen> {
             children: [
               ButtonTile2(
                   onPress: () {
-                    // Navigator.pushNamed(context, SignUpScreen.id);
+                    Navigator.pushNamed(context, SignUpScreen.id);
                   },
                   text: 'Sign-up'),
               Align(

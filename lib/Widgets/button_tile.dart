@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:womenopedia1/palette.dart';
 
 class ButtonTile extends StatelessWidget {
-  final Function onPress;
+  final Function() onPress;
   final String text;
   ButtonTile({required this.onPress, required this.text});
 
@@ -14,7 +14,7 @@ class ButtonTile extends StatelessWidget {
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(5), color: kPrimaryColor),
         child: TextButton(
-          onPressed: onPress(),
+          onPressed: onPress,
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
             child: Text(

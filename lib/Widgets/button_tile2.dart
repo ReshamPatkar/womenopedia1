@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../palette.dart';
 
 class ButtonTile2 extends StatelessWidget {
-  final Function onPress;
+  final Function() onPress;
   final String text;
   ButtonTile2({required this.onPress, required this.text});
 
@@ -12,7 +12,7 @@ class ButtonTile2 extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 8),
       child: TextButton(
-        onPressed: onPress(),
+        onPressed: onPress,
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 4.0, horizontal: 16.0),
           child: Text(

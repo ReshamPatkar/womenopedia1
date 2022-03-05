@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:womenopedia1/Widgets/button_tile2.dart';
 
+import 'home_screen.dart';
+
 class WelcomeScreen extends StatefulWidget {
   static String id = 'Welcome Screen';
   const WelcomeScreen({Key? key}) : super(key: key);
@@ -30,7 +32,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             alignment: AlignmentDirectional.bottomCenter,
             child: ButtonTile2(
                 onPress: () {
-                  // Navigator.pushNamed(context, SignUpScreen.id);
+                  Navigator.pushNamed(context, HomeScreen.id);
                 },
                 text: 'LET\'S GO'),
           ),

@@ -9,7 +9,7 @@ class ButtonTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 24),
+      padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
       child: DecoratedBox(
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(5), color: kPrimaryColor),

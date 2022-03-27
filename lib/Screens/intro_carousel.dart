@@ -26,9 +26,10 @@ class IntroScreenState extends State<IntroScreen> {
     slides.add(
       new Slide(
         title: "Period Tracker",
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed lectus a magna hendrerit pellentesque sed sed orci. In bibendum elit quis ante dapibus ornare. Mauris velit nibh, elementum et dui sed, congue porttitor magna. Nunc vel iaculis arcu. Morbi varius, felis quis bibendum hendrerit, elit enim sollicitudin libero, eget ornare enim massa nec lacus. Praesent ac orci eget nunc auctor convallis. Quisque quis arcu justo.",
-        pathImage: "images/caro1.png",
+        description: "If there is one thing we can count on\n"
+            "In Menstruation and in life\n"
+            "It is unpredictable",
+        pathImage: "images/Period tracker.jpg",
         backgroundColor: kPrimaryColor,
       ),
     );
@@ -37,7 +38,7 @@ class IntroScreenState extends State<IntroScreen> {
         title: "Live Location",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed lectus a magna hendrerit pellentesque sed sed orci. In bibendum elit quis ante dapibus ornare. Mauris velit nibh, elementum et dui sed, congue porttitor magna. Nunc vel iaculis arcu. Morbi varius, felis quis bibendum hendrerit, elit enim sollicitudin libero, eget ornare enim massa nec lacus. Praesent ac orci eget nunc auctor convallis. Quisque quis arcu justo. ",
-        pathImage: "images/caro2.png",
+        pathImage: "images/safety.png",
         backgroundColor: kDarkPrimaryColor,
       ),
     );
@@ -47,7 +48,7 @@ class IntroScreenState extends State<IntroScreen> {
         title: "Meditation",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed lectus a magna hendrerit pellentesque sed sed orci. In bibendum elit quis ante dapibus ornare. Mauris velit nibh, elementum et dui sed, congue porttitor magna. Nunc vel iaculis arcu. Morbi varius, felis quis bibendum hendrerit, elit enim sollicitudin libero, eget ornare enim massa nec lacus. Praesent ac orci eget nunc auctor convallis. Quisque quis arcu justo. ",
-        pathImage: "images/caro3.png",
+        pathImage: "images/Meditation.jpg",
         backgroundColor: kPrimaryColor,
       ),
     );
@@ -56,7 +57,7 @@ class IntroScreenState extends State<IntroScreen> {
         title: "Workout",
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed lectus a magna hendrerit pellentesque sed sed orci. In bibendum elit quis ante dapibus ornare. Mauris velit nibh, elementum et dui sed, congue porttitor magna. Nunc vel iaculis arcu. Morbi varius, felis quis bibendum hendrerit, elit enim sollicitudin libero, eget ornare enim massa nec lacus. Praesent ac orci eget nunc auctor convallis. Quisque quis arcu justo. ",
-        pathImage: "images/caro1.png",
+        pathImage: "images/workout.jpg",
         backgroundColor: kDarkPrimaryColor,
       ),
     );

@@ -28,7 +28,8 @@ class IntroScreenState extends State<IntroScreen> {
         title: "Period Tracker",
         description: "If there is one thing we can count on\n"
             "In Menstruation and in life\n"
-            "It is unpredictable",
+            "It is unpredictable\n"
+            "-Nikki Tajiri",
         pathImage: "images/Period tracker.jpg",
         backgroundColor: kPrimaryColor,
       ),

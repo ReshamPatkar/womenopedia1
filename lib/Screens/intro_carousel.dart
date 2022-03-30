@@ -26,40 +26,46 @@ class IntroScreenState extends State<IntroScreen> {
     slides.add(
       new Slide(
         title: "Period Tracker",
-        description: "If there is one thing we can count on\n"
-            "In Menstruation and in life\n"
-            "It is unpredictable\n"
-            "-Nikki Tajiri",
+        description:
+            "Menstruation and life, if there is one thing we can bet on, it is that they are both unpredictable!",
         pathImage: "images/Period tracker.jpg",
-        backgroundColor: kPrimaryColor,
+        heightImage: 300,
+        widthImage: 600,
+        backgroundColor: Color(0xFFfccfd2),
       ),
     );
     slides.add(
       new Slide(
-        title: "Live Location",
+        title: "Live Location Tracker",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed lectus a magna hendrerit pellentesque sed sed orci. In bibendum elit quis ante dapibus ornare. Mauris velit nibh, elementum et dui sed, congue porttitor magna. Nunc vel iaculis arcu. Morbi varius, felis quis bibendum hendrerit, elit enim sollicitudin libero, eget ornare enim massa nec lacus. Praesent ac orci eget nunc auctor convallis. Quisque quis arcu justo. ",
+            "The day a woman can walk freely on the roads at night, that day we can say that India has achieved independence.",
         pathImage: "images/safety.png",
-        backgroundColor: kDarkPrimaryColor,
+        heightImage: 300,
+        widthImage: 600,
+        backgroundColor: Color(0xff350436),
       ),
     );
 
     slides.add(
       new Slide(
-        title: "Meditation",
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed lectus a magna hendrerit pellentesque sed sed orci. In bibendum elit quis ante dapibus ornare. Mauris velit nibh, elementum et dui sed, congue porttitor magna. Nunc vel iaculis arcu. Morbi varius, felis quis bibendum hendrerit, elit enim sollicitudin libero, eget ornare enim massa nec lacus. Praesent ac orci eget nunc auctor convallis. Quisque quis arcu justo. ",
+        title: "Meditation feature",
+        description: "You can't live a positive life with a negative mind!",
         pathImage: "images/Meditation.jpg",
-        backgroundColor: kPrimaryColor,
+        heightImage: 300,
+        widthImage: 700,
+        backgroundColor: Color(0xff102b1e),
       ),
     );
     slides.add(
       new Slide(
-        title: "Workout",
+        title: "Workout feature",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed lectus a magna hendrerit pellentesque sed sed orci. In bibendum elit quis ante dapibus ornare. Mauris velit nibh, elementum et dui sed, congue porttitor magna. Nunc vel iaculis arcu. Morbi varius, felis quis bibendum hendrerit, elit enim sollicitudin libero, eget ornare enim massa nec lacus. Praesent ac orci eget nunc auctor convallis. Quisque quis arcu justo. ",
+            "EXERCISING SHOULD BE ABOUT REWARDING THE BODY WITH ENDORPHINS AND STRENGTH...\n"
+            "NOT ABOUT PUNISHING YOUR BODY FOR WHAT YOU'VE EATEN.",
         pathImage: "images/workout.jpg",
-        backgroundColor: kDarkPrimaryColor,
+        heightImage: 300,
+        widthImage: 550,
+        backgroundColor: Color(0xff420d05),
       ),
     );
   }

@@ -23,22 +23,45 @@ class IntroScreenState extends State<IntroScreen> {
   @override
   void initState() {
     super.initState();
-    slides.add(
-      new Slide(
-        title: "Period Tracker",
-        description:
-            "Menstruation and life, if there is one thing we can bet on, it is that they are both unpredictable!",
-        pathImage: "images/Period tracker.jpg",
-        heightImage: 300,
-        widthImage: 600,
-        backgroundColor: Color(0xFFfccfd2),
+    slides.add(new Slide(
+      title: "Period Tracker",
+      styleTitle: TextStyle(
+        color: Color(0xffd61c1c),
+        fontSize: 40.0,
+        fontWeight: FontWeight.bold,
+        fontFamily: 'Hurricane',
       ),
-    );
+      description:
+          "Menstruation and life, if there is one thing we can bet on, it is that they are both unpredictable!",
+      styleDescription: TextStyle(
+        color: Color(0xffd61c1c),
+        fontSize: 20.0,
+        fontStyle: FontStyle.italic,
+        fontFamily: 'Cookie',
+      ),
+      pathImage: "images/Period tracker.jpg",
+      heightImage: 300,
+      widthImage: 300,
+      backgroundColor: Color(0xFFfccfd2),
+    ));
+
     slides.add(
       new Slide(
-        title: "Live Location Tracker",
+        title: "Live Location",
+        styleTitle: TextStyle(
+          color: Color(0xffffffff),
+          fontSize: 40.0,
+          fontWeight: FontWeight.bold,
+          fontFamily: 'Hurricane',
+        ),
         description:
             "The day a woman can walk freely on the roads at night, that day we can say that India has achieved independence.",
+        styleDescription: TextStyle(
+          color: Color(0xffffffff),
+          fontSize: 20.0,
+          fontStyle: FontStyle.italic,
+          fontFamily: 'Cookie',
+        ),
         pathImage: "images/safety.png",
         heightImage: 300,
         widthImage: 600,
@@ -49,7 +72,19 @@ class IntroScreenState extends State<IntroScreen> {
     slides.add(
       new Slide(
         title: "Meditation feature",
+        styleTitle: TextStyle(
+          color: Color(0xffd66767),
+          fontSize: 40.0,
+          fontWeight: FontWeight.bold,
+          fontFamily: 'Hurricane',
+        ),
         description: "You can't live a positive life with a negative mind!",
+        styleDescription: TextStyle(
+          color: Color(0xffd66767),
+          fontSize: 20.0,
+          fontStyle: FontStyle.italic,
+          fontFamily: 'Cookie',
+        ),
         pathImage: "images/Meditation.jpg",
         heightImage: 300,
         widthImage: 700,
@@ -59,13 +94,25 @@ class IntroScreenState extends State<IntroScreen> {
     slides.add(
       new Slide(
         title: "Workout feature",
+        styleTitle: TextStyle(
+          color: Color(0xff160329),
+          fontSize: 40.0,
+          fontWeight: FontWeight.bold,
+          fontFamily: 'Hurricane',
+        ),
         description:
             "EXERCISING SHOULD BE ABOUT REWARDING THE BODY WITH ENDORPHINS AND STRENGTH...\n"
             "NOT ABOUT PUNISHING YOUR BODY FOR WHAT YOU'VE EATEN.",
+        styleDescription: TextStyle(
+          color: Color(0xff160329),
+          fontSize: 20.0,
+          fontStyle: FontStyle.italic,
+          fontFamily: 'Cookie',
+        ),
         pathImage: "images/workout.jpg",
         heightImage: 300,
         widthImage: 550,
-        backgroundColor: Color(0xff420d05),
+        backgroundColor: Color(0xff6d24ff),
       ),
     );
   }

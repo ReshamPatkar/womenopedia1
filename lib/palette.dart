@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 Color kButtonBackground = Color(0xFF1D1D27);
 Color kDarkPrimaryColor = Color(0xFF4255ab);
 Color kPrimaryColor = Color(0xFF6558F5);
-Color kSecondaryColor = Color(0xFF9058f5);
+Color kSecondaryColor = Color(0xff9058f5);
 Color kAccentColor = Color(0xFF58ddf5);
 Color kDarkAccentColor = Color(0xFF3e9aab);
 Color kBackGroundColor = Color(0xFF424242);

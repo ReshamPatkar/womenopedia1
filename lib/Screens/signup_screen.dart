@@ -115,7 +115,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     child: TextField(
                       keyboardType: TextInputType.name,
                       onChanged: (value) {
-                        firstName = value;
+                        lastName = value;
                       },
                       cursorColor: kPrimaryColor,
                       decoration: kTextFieldDecoration.copyWith(
@@ -203,7 +203,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   Padding(
                     padding: const EdgeInsets.symmetric(vertical: 20),
                     child: ButtonTile(
-                      onPress: () {},
+                      onPress: () {
+
+
+                      },
                       text: 'Register',
                     ),
                   ),

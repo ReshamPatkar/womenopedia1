@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:womenopedia1/Screens/period_tracker_screen.dart';
 import 'package:womenopedia1/Widgets/button_tile.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -20,7 +21,9 @@ class _HomeScreenState extends State<HomeScreen> {
           Padding(
             padding:
                 const EdgeInsets.only(top: 16.0, bottom: 16.0, right: 48.0),
-            child: ButtonTile(onPress: () {}, text: 'Period Tracker'),
+            child: ButtonTile(onPress: () {
+              Navigator.pushNamed(context, PredictPage.id);
+            }, text: 'Period Tracker'),
           ),
           Padding(
             padding: const EdgeInsets.only(top: 16.0, bottom: 16.0, left: 48.0),

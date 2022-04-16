@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:womenopedia1/Screens/medit_home_screen.dart';
 import 'package:womenopedia1/Screens/period_tracker_screen.dart';
 import 'package:womenopedia1/Widgets/button_tile.dart';
 
@@ -32,7 +33,9 @@ class _HomeScreenState extends State<HomeScreen> {
           Padding(
             padding:
                 const EdgeInsets.only(top: 16.0, bottom: 16.0, right: 48.0),
-            child: ButtonTile(onPress: () {}, text: 'Meditation'),
+            child: ButtonTile(onPress: () {
+              Navigator.pushNamed(context, MeditHomeScreen.id);
+            }, text: 'Meditation'),
           ),
           Padding(
             padding: const EdgeInsets.only(top: 16.0, bottom: 16.0, left: 48.0),

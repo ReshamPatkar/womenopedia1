@@ -193,23 +193,25 @@ class _PredictPageState extends State<PredictPage> {
 
     return Scaffold(
       backgroundColor: Theme.of(context).backgroundColor,
-      body: SafeArea(
-        child: Container(
-          margin: EdgeInsets.only(top: 5.0),
-          width: MediaQuery.of(context).size.width,
-          height: MediaQuery.of(context).size.height,
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              main(),
-              cycleLengthPicker(),
-              datePicker(),
-              PButton(
-                onPressed: this._predictCycle,
-                text: "Submit",
-              )
-            ],
+      body: SingleChildScrollView(
+        child: SafeArea(
+          child: Container(
+            margin: EdgeInsets.only(top: 5.0),
+            width: MediaQuery.of(context).size.width,
+            height: MediaQuery.of(context).size.height,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                main(),
+                cycleLengthPicker(),
+                datePicker(),
+                PButton(
+                  onPressed: this._predictCycle,
+                  text: "Submit",
+                )
+              ],
+            ),
           ),
         ),
       ),

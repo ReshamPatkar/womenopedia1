@@ -28,7 +28,7 @@ class _MeditHomeScreenState extends State<MeditHomeScreen> {
               color: Color(0xFFF5CEB8),
               image: DecorationImage(
                 alignment: Alignment.centerLeft,
-                image: AssetImage("assets/images/undraw_pilates_gpdb.png"),
+                image: AssetImage("images/undraw_pilates_gpdb.png"),
               ),
             ),
           ),
@@ -48,11 +48,11 @@ class _MeditHomeScreenState extends State<MeditHomeScreen> {
                         color: Color(0xFFF2BEA1),
                         shape: BoxShape.circle,
                       ),
-                      child: SvgPicture.asset("assets/icons/menu.svg"),
+                      child: SvgPicture.asset("images/menu.svg"),
                     ),
                   ),
                   Text(
-                    "Good Mornign \nShishir",
+                    "Good Morning \nShishir",
                     style: Theme.of(context)
                         .textTheme
                         .headline4

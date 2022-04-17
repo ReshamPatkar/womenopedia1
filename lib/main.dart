@@ -8,6 +8,7 @@ import 'package:womenopedia1/Screens/meditation_screen.dart';
 import 'package:womenopedia1/Screens/period_tracker_screen.dart';
 import 'package:womenopedia1/Screens/signup_screen.dart';
 import 'package:womenopedia1/Screens/welcome_screen.dart';
+import 'package:womenopedia1/Screens/workout_screen.dart';
 
 import 'Screens/home_screen.dart';
 import 'Screens/login_screen.dart';
@@ -37,6 +38,7 @@ class MyApp extends StatelessWidget {
         MeditHomeScreen.id: (context) =>MeditHomeScreen(),
         MeditationScreen.id: (context) => MeditationScreen(),
         MealDetailScreen.id: (context) => MealDetailScreen(),
+        WorkoutScreen.id: (context) => WorkoutScreen(),
       },
     );
   }

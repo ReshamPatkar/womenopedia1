@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:womenopedia1/Screens/DietRec.dart';
 import 'package:womenopedia1/Screens/welcome_screen.dart';
+import 'package:womenopedia1/Screens/workout_screen.dart';
 
 import '../Widgets/category_card.dart';
 import 'meditation_screen.dart';
@@ -84,9 +85,11 @@ class _MeditHomeScreenState extends State<MeditHomeScreen> {
                           },
                         ),
                         CategoryCard(
-                          title: "Yoga",
+                          title: "Workout",
                           svgSrc: "images/yoga.svg",
-                          press: () {},
+                          press: () {
+                            Navigator.pushNamed(context, WorkoutScreen.id);
+                          },
                         ),
                       ],
                     ),

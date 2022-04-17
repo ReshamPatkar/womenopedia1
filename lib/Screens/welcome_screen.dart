@@ -24,7 +24,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             child: Padding(
                 padding: const EdgeInsets.symmetric(vertical: 250.0),
                 child: Text(
-                  "WELCOME",
+                  "WELCOME TO WOMEN-O-PEDIA",
                   style: TextStyle(fontSize: 48),
                 )),
           ),

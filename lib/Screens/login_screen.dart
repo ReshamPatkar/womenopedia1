@@ -26,7 +26,7 @@ class _LoginScreenState extends State<LoginScreen> {
   bool passwordBool = true;
   @override
   void initState() {
-    // TODO: implement initState
+    //TODO: implement initState
     passwordBool = true;
     super.initState();
   }

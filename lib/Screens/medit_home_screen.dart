@@ -52,7 +52,7 @@ class _MeditHomeScreenState extends State<MeditHomeScreen> {
                     ),
                   ),
                   Text(
-                    "Good Morning \nShishir",
+                    "Good Morning!! \nHave a nice day",
                     style: Theme.of(context)
                         .textTheme
                         .headline4

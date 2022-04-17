@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:url_launcher/url_launcher.dart';
 // import 'package:meditation_app/constants.dart';
 // import 'package:meditation_app/widgets/bottom_nav_bar.dart';
 // import 'package:meditation_app/widgets/search_bar.dart';
+
 
 class MeditationScreen extends StatefulWidget {
   static String id = 'Meditation Screen';
@@ -11,6 +13,14 @@ class MeditationScreen extends StatefulWidget {
 }
 
 class _MeditationScreenState extends State<MeditationScreen> {
+  _launchURL() async {
+    const url = 'https://www.geeksforgeeks.org/urls-in-flutter/';
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
@@ -67,7 +77,7 @@ class _MeditationScreenState extends State<MeditationScreen> {
                         SeassionCard(
                           seassionNum: 1,
                           isDone: true,
-                          press: () {},
+                          press: () {_launchURL();},
                         ),
                         SeassionCard(
                           seassionNum: 2,

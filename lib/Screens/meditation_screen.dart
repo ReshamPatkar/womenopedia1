@@ -5,7 +5,7 @@ import 'package:flutter_svg/svg.dart';
 // import 'package:meditation_app/widgets/search_bar.dart';
 
 class MeditationScreen extends StatefulWidget {
-  static String id = 'Meditatation Screen';
+  static String id = 'Meditation Screen';
   @override
   State<MeditationScreen> createState() => _MeditationScreenState();
 }

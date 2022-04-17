@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:womenopedia1/Screens/DietRec.dart';
 import 'package:womenopedia1/Screens/welcome_screen.dart';
 
 import '../Widgets/category_card.dart';
@@ -66,7 +67,9 @@ class _MeditHomeScreenState extends State<MeditHomeScreen> {
                         CategoryCard(
                           title: "Diet Recommendation",
                           svgSrc: "images/Hamburger.svg",
-                          press: () {},
+                          press: () {
+                            Navigator.pushNamed(context, MealDetailScreen.id);
+                          },
                         ),
                         // CategoryCard(
                         //   title: "Kegel Exercises",

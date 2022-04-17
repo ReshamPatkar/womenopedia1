@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:womenopedia1/Screens/DietRec.dart';
 import 'package:womenopedia1/Screens/intro_carousel.dart';
 import 'package:womenopedia1/Screens/logo_screen.dart';
 import 'package:womenopedia1/Screens/medit_home_screen.dart';
@@ -35,6 +36,7 @@ class MyApp extends StatelessWidget {
         PredictPage.id: (context) =>PredictPage(),
         MeditHomeScreen.id: (context) =>MeditHomeScreen(),
         MeditationScreen.id: (context) => MeditationScreen(),
+        MealDetailScreen.id: (context) => MealDetailScreen(),
       },
     );
   }
